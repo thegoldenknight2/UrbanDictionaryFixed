@@ -1,13 +1,13 @@
 {
-    "name": "Template Plugin",
-    "description": "A plugin for use as a template.",
+    "name": "UrbanDictionaryFixed",
+    "description": "a plugin that adds a /urban command to get the definition of a word",
     "authors": [
         {
-            "name": "You!",
-            "id": "YOUR_ID_HERE"
+            "name": "zgoldenknight",
+            "id": "1337477888139726889"
         }
     ],
-    "main": "src/index.ts",
+    "main": "index.ts",
     "vendetta": {
         "icon": "ic_badge_staff"
     }
