@@ -45,7 +45,7 @@ export default {
 
           sendBotMessage(
             ctx.channel.id,
-            `📖 **${entry.word}**\n\n${definition}${example ? `\n\n*${example}*` : ""}\n\n👍 ${entry.thumbs_up}  👎 ${entry.thumbs_down}`
+            `📖 **${entry.word}**\n\n${definition}${example ? `\n\n*${example}*` : ""}`
           );
         } catch (e) {
           sendBotMessage(ctx.channel.id, "❌ Failed to fetch definition. Try again!");
